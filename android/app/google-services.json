@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "890412545511",
+    "firebase_url": "https://f-club-management-default-rtdb.firebaseio.com",
+    "project_id": "f-club-management",
+    "storage_bucket": "f-club-management.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:890412545511:android:c3247775880ae735d9b942",
+        "android_client_info": {
+          "package_name": "com.example.swd_project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "890412545511-bi91tcm6afv21sojknlvb2eehurr3743.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBoryUDM28qngptBqm7ujk-GTfq6sHXSBo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "890412545511-7s49ma0jtsgd8kljt744r4adb84121l8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

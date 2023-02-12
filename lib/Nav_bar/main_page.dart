@@ -34,7 +34,7 @@ class _MainPageState extends State<MainPage> {
                 backgroundColor: Colors.blue),
             BottomNavigationBarItem(
                 icon: Icon(Icons.notifications),
-                label: 'Club',
+                label: 'Notification',
                 backgroundColor: Colors.red),
             BottomNavigationBarItem(
                 icon: Icon(Icons.article),
