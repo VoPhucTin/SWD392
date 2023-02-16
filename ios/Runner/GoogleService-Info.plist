@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>890412545511-guv5nfefu6gbik9op0n29j7j0iichd36.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.890412545511-guv5nfefu6gbik9op0n29j7j0iichd36</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>890412545511-9vgt9hvaopoo0pl46qfaa9k0nouq4iel.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBFbrQJUI3jv-_aaLxIW3OH5QqxUGGycRU</string>
+	<key>GCM_SENDER_ID</key>
+	<string>890412545511</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.swdProject</string>
+	<key>PROJECT_ID</key>
+	<string>f-club-management</string>
+	<key>STORAGE_BUCKET</key>
+	<string>f-club-management.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:890412545511:ios:99ed3cf7cff2deb5d9b942</string>
+	<key>DATABASE_URL</key>
+	<string>https://f-club-management-default-rtdb.firebaseio.com</string>
+</dict>
+</plist>

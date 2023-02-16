@@ -43,6 +43,7 @@ dependencies:
 
   # Google Icon
   font_awesome_flutter: ^10.4.0
+  firebase_messaging: ^14.2.2
 
   # State management
   # provider: ^6.0.1
