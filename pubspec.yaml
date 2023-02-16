@@ -28,13 +28,24 @@ environment:
 # the latest version available on pub.dev. To see which dependencies have newer
 # versions available, run `flutter pub outdated`.
 dependencies:
-  font_awesome_flutter: ^9.2.0
   flutter:
     sdk: flutter
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
+
+  # google sign in
+  firebase_auth: ^4.2.6
+  google_sign_in: ^5.4.4
+  firebase_core: ^2.5.0
+  firebase_core_platform_interface: ^4.5.1
+
+  # Google Icon
+  font_awesome_flutter: ^10.4.0
+
+  # State management
+  # provider: ^6.0.1
 
 dev_dependencies:
   flutter_test:

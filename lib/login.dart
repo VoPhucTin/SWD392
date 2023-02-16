@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:swd_project/Nav_bar/main_page.dart';
 import 'package:swd_project/main.dart';
+import 'package:google_sign_in/google_sign_in.dart';
+import 'package:swd_project/services/firebase_services.dart';
 
 class LoginScreen extends StatefulWidget {
   @override
@@ -149,6 +151,7 @@ class _LoginScreenState extends State<LoginScreen> {
                 ),
               ),
               onPressed: () {
+                // await FirebaseServices().signInWithGoogle();
                 Navigator.of(context).push(
                   MaterialPageRoute(
                     builder: (BuildContext context) {
@@ -187,7 +190,11 @@ class _LoginScreenState extends State<LoginScreen> {
                     ),
                   ),
                   RawMaterialButton(
-                    onPressed: () {},
+                    onPressed: () async {
+                      await FirebaseServices().signInWithGoogle();
+                      Navigator.push(context,
+                          MaterialPageRoute(builder: (context) => MainPage()));
+                    },
                     fillColor: Colors.white,
                     shape: CircleBorder(),
                     elevation: 4.0,

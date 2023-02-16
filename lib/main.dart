@@ -1,8 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:swd_project/Nav_bar/main_page.dart';
 import 'package:swd_project/login.dart';
+import 'package:firebase_core/firebase_core.dart';
 
-void main() {
+void main() async {
+  await WidgetsFlutterBinding.ensureInitialized();
+  Firebase.initializeApp();
   runApp(const MyApp());
 }
 
