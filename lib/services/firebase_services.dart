@@ -16,6 +16,11 @@ class FirebaseServices {
             accessToken: googleSignInAuthentication.accessToken,
             idToken: googleSignInAuthentication.idToken);
         await _auth.signInWithCredential(authCredential);
+
+        // if(_auth != null){
+        //  String token = _auth.get
+        // }
+        print(googleSignInAuthentication.idToken);
       }
     } on FirebaseAuthException catch (e) {
       print(e.message);
